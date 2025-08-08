@@ -11,13 +11,13 @@
 Sistema de base de datos centralizada para GFG Real Estate Asset Management.
 ---
 
-## 📌 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 Consolidar la información clave de operaciones hoteleras en una base de datos relacional, desplegada en Azure, con conectividad a herramientas de análisis (Power BI) y flujos ETL automatizados (n8n). El sistema busca optimizar la disponibilidad de datos, migrando de Excel a una base de datos formal, a saber, PostgreSQL en infraestructura Azure.
 
 ---
 
-## 🧱 Estructura del Repositorio
+## Estructura del Repositorio
 
 ```bash
 gfg-asset-management-db/
@@ -41,14 +41,14 @@ gfg-asset-management-db/
 ```
 ---
 
-## 🎯 Milestone Actual: Database Core Operational
+## Milestone Actual: Database Core Operational
 
 **📅 Completado**: Agosto 7, 2025  
 **⏰ Status**: En cronograma según timeline actualizado  
 **💰 Budget**: $72/mes vs $320 presupuestado (77% de ahorro)  
 **📈 Progreso**: Día 1 de 24 - trabajo técnico completado anticipadamente
 
-### ✅ Logros Alcanzados (~17% Fase 1, ~4% proyecto total)
+### Logros Alcanzados (~17% Fase 1, ~4% proyecto total)
 
 #### Infraestructura y Arquitectura
 - [x] **Azure PostgreSQL 17.6** desplegado y optimizado para BI workloads
@@ -81,9 +81,9 @@ gfg-asset-management-db/
 
 ---
 
-## 🚀 Estado del Proyecto por Fases
+## Estado del Proyecto por Fases
 
-### 📊 Fase 1: Infraestructura y Arquitectura Core (Semanas 1-6) - EN PROGRESO
+### Fase 1: Infraestructura y Arquitectura Core (Semanas 1-6) - EN PROGRESO
 
 | Componente | Estado | Progreso | Notas |
 |------------|--------|----------|-------|
@@ -113,7 +113,7 @@ gfg-asset-management-db/
 
 **Progreso Fase 3**: 0 de 7 componentes completados (0%)
 
-### 🤖 Fase 4: Capacidades Avanzadas y Go-Live (Semanas 19-24) - PENDIENTE
+### Fase 4: Capacidades Avanzadas y Go-Live (Semanas 19-24) - PENDIENTE
 
 | Componente | Estado | Progreso | Notas |
 |------------|--------|----------|-------|
@@ -129,7 +129,7 @@ gfg-asset-management-db/
 
 **Progreso Fase 4**: 0 de 9 componentes completados (0%)
 
-### 📊 Resumen General del Proyecto
+### 📋 Resumen General del Proyecto
 
 | Fase | Componentes Totales | Completados | Progreso Fase | Contribución al Proyecto |
 |------|-------------------|-------------|---------------|-------------------------|
@@ -177,7 +177,7 @@ ORDER BY h.codigo, pl.tipo;
 
 ---
 
-## 🎯 Roadmap - Próximos Milestones
+## Roadmap - Próximos Milestones
 
 ### Semana 2-6: Completar Fase 1 (Target: ~25% proyecto total)
 - [ ] Deploy Azure VM para N8N
@@ -200,7 +200,7 @@ ORDER BY h.codigo, pl.tipo;
 
 ---
 
-## 📊 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **PostgreSQL 17** (Azure Flexible Server)
 - **Power BI** (Business Intelligence)
@@ -210,7 +210,7 @@ ORDER BY h.codigo, pl.tipo;
 
 ---
 
-## 📚 Documentación Adicional
+## Documentación Adicional
 
 - Milestone Week 01 Report: `docs/progress/milestone-week-01.md`
 - Database Setup Guide: `docs/technical/database-setup.md`
